@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+  }
+
+  .pesquisa {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: center;
+      margin-top: 30px;
+  }
+
+  .pesquisa button {
+    margin-left: 5px;
+  }
+ 
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #28a745;
+    padding-top: 30px;
+  }
+
+  .box {
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 20px 5px;
+  }
+
+
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 150px;
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 36px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:#D6C4C1;
+  }
+
+  .description p {
+    color: #616161;
+    margin: 5px;
+  }
+
+  #price {
+    font-weight: bold;
+    color: #000;
+  }
